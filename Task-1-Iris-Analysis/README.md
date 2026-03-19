@@ -1,4 +1,4 @@
-# 🌸 Iris Dataset Explorer
+# Iris Dataset Explorer
 ### Exploratory Data Analysis with Python · Pandas · Seaborn · Matplotlib
 
 ## Overview
@@ -6,8 +6,6 @@
 A complete **Exploratory Data Analysis (EDA)** of the Iris dataset — one of the most iconic datasets in data science, first introduced by British statistician **R. A. Fisher in 1936**. This project applies the full EDA pipeline: data loading, statistical summarization, and multi-layered visualization to extract meaningful insights about three iris species.
 
 The entire analysis is built inside a **Jupyter Notebook in VS Code**, with every section documented using markdown for clarity and reproducibility.
-
----
 
 ## The Dataset
 
@@ -37,7 +35,6 @@ The entire analysis is built inside a **Jupyter Notebook in VS Code**, with ever
 | *Iris versicolor* | 🟠 Amber | Medium — slight overlap with virginica |
 | *Iris virginica* | 🟣 Purple | Largest petals — highest measurements |
 
-
 ## Stack
 
 | Tool | Role |
@@ -49,8 +46,6 @@ The entire analysis is built inside a **Jupyter Notebook in VS Code**, with ever
 | `scipy.stats` | One-way ANOVA significance testing |
 | `sklearn.datasets` | Built-in Iris dataset loader |
 
----
-
 ## Project Structure
 
 ```
@@ -60,8 +55,6 @@ iris-dataset-explorer/
 ├── iris_explorer.py         ← Standalone Python script version
 └── README.md                ← This file
 ```
-
----
 
 ## Setup
 
@@ -158,7 +151,6 @@ ANOVA results confirm that none of the four features are noise. Each one carries
 ## Author
 
 **Momina Ramzan**
-GitHub · [@Mominaaah](https://github.com/Mominaaah)
 
 ## Acknowledgements
 
