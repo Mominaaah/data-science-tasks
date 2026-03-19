@@ -52,7 +52,6 @@ The entire analysis is built inside a **Jupyter Notebook in VS Code**, with ever
 iris-dataset-explorer/
 │
 ├── iris_notebook.ipynb      ← Full analysis notebook with markdown + code
-├── iris_explorer.py         ← Standalone Python script version
 └── README.md                ← This file
 ```
 
