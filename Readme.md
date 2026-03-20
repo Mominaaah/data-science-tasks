@@ -1,4 +1,4 @@
-# 📊 Data Science Projects Portfolio
+# Data Science Projects Portfolio
 
 ## About
 
@@ -33,7 +33,7 @@ The project applies the full EDA pipeline — loading data, computing statistics
 - Petal Length and Petal Width share a near-perfect correlation of 0.96
 - All four features pass the ANOVA test — every feature is statistically significant
 
-[View Project Folder](./task1-iris-explorer) &nbsp;|&nbsp; 📓 [Open Notebook](./task1-iris-explorer/iris_notebook.ipynb)
+[View Project Folder](./Task-1-Iris-Analysis) &nbsp;|&nbsp; [Open Notebook](./Task-1-Iris-Analysis/iris_notebook.ipynb)
 
 ---
 
@@ -62,7 +62,7 @@ The project handles real-world data quality issues including missing values, app
 - Income alone is not a reliable separator between approved and rejected applicants
 - The dataset is moderately imbalanced — 69% approved vs 31% rejected
 
-[View Project Folder](./task2-credit-risk) &nbsp;|&nbsp; 📓 [Open Notebook](./task2-credit-risk/credit_risk_prediction.ipynb)
+[View Project Folder](./Task-2-Credit-Risk-Prediction) &nbsp;|&nbsp; [Open Notebook](./Task-2-Credit-Risk-Prediction/credit_risk_prediction.ipynb)
 
 ---
 
@@ -94,7 +94,7 @@ The project demonstrates both Label Encoding and One-Hot Encoding strategies, tr
 - Customers holding only one product churn far more than multi-product customers
 - High-balance customers churning represents the greatest financial risk to the bank
 
-📁 [View Project Folder](./task3-churn-prediction) &nbsp;|&nbsp; 📓 [Open Notebook](./task3-churn-prediction/customer_churn_prediction.ipynb)
+[View Project Folder](./Task-3-Customer-Churn-Prediction) &nbsp;|&nbsp; [Open Notebook](./Task-3-Customer-Churn-Prediction/customer_churn_prediction.ipynb)
 
 ---
 
@@ -118,24 +118,24 @@ The project demonstrates both Label Encoding and One-Hot Encoding strategies, tr
 ## Repository Structure
 
 ```
+ 
  data-science-portfolio/
 │
-├──  task1-iris-explorer/
+├── Task-1-Iris-Analysis/
 │   ├── iris_notebook.ipynb
-│   ├── iris_explorer.py
 │   └── README.md
 │
-├──  task2-credit-risk/
+├── Task-2-Credit-Risk-Prediction/
 │   ├── credit_risk_prediction.ipynb
 │   ├── train.csv
 │   └── README.md
 │
-├──  task3-churn-prediction/
+├── Task-3-Customer-Churn-Prediction/
 │   ├── customer_churn_prediction.ipynb
 │   ├── Churn_Modelling.csv
 │   └── README.md
 │
-└── README.md                ← This file
+└── README.md             ← This file
 ```
 
 ---
