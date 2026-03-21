@@ -122,6 +122,8 @@ Performance was assessed using four metrics to avoid over-reliance on accuracy a
 
 The confusion matrix provides the error breakdown — identifying both **False Positives** (creditworthy applicants wrongly rejected) and **False Negatives** (risky applicants wrongly approved), which have different real-world costs in a lending context.
 
+---
+
 ## Key Findings
 
 **1. Credit History is the dominant predictor.**
@@ -138,6 +140,7 @@ With approximately 69% approvals, a naive classifier that always predicts approv
 
 **5. Property area has limited discriminating power.**
 Urban, Semiurban, and Rural applicants show broadly similar approval rates, making this a low-importance feature relative to credit history and education.
+
 
 ## Statistical Summary
 

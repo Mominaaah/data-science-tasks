@@ -127,8 +127,6 @@ The **ROC Curve** plots the True Positive Rate against the False Positive Rate a
 
 In churn prediction, **False Negatives carry the highest business cost** — a missed churner is a lost customer with no opportunity for retention intervention.
 
----
-
 ### Feature Importance
 Random Forest generates an importance score for every feature based on how much each one reduced prediction error across all 100 trees. Features used frequently in early splits across many trees receive the highest scores.
 
@@ -141,6 +139,8 @@ Expected top features in this dataset:
 | NumOfProducts   | High                | Customers with 1 product have less engagement         |
 | IsActiveMember  | Medium              | Inactive members churn more frequently               |
 | Geography       | Medium              | Germany has a notably higher churn rate               |
+
+---
 
 ## Key Findings
 

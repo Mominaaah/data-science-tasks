@@ -147,6 +147,8 @@ ANOVA results confirm that none of the four features are noise. Each one carries
 | Petal Length  | 3.76  | 1.77    | 1.00 | 4.35   | 6.90 |
 | Petal Width   | 1.20  | 0.76    | 0.10 | 1.30   | 2.50 |
 
+---
+
 ## Author
 
 **Momina Ramzan**
