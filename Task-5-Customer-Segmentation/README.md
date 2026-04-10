@@ -98,8 +98,3 @@ The dataset downloads automatically — no manual download needed.
 - Customer segmentation and profiling
 - Data-driven marketing strategy development
 
----
-
-## Part of
-
-[Data Science Portfolio](../) — Task 2 of ongoing project series.
