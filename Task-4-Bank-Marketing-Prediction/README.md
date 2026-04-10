@@ -2,8 +2,6 @@
 
 Predict whether a bank customer will subscribe to a term deposit as a result of a direct marketing campaign using the UCI Bank Marketing Dataset.
 
----
-
 ## Dataset
 
 - **Source:** [UCI Machine Learning Repository — Bank Marketing](https://archive.ics.uci.edu/dataset/222/bank+marketing)
@@ -11,8 +9,6 @@ Predict whether a bank customer will subscribe to a term deposit as a result of 
 - **Features:** 16 input features (demographic + campaign data)
 - **Target:** `y` — did the client subscribe to a term deposit? (`yes` / `no`)
 - **Class imbalance:** 88.3% No · 11.7% Yes
-
----
 
 ## Project Structure
 
@@ -22,8 +18,6 @@ Task-4-Bank-Marketing-Prediction/
 ├── bank_marketing_prediction.ipynb   # Main notebook
 └── README.md                         # This file
 ```
-
----
 
 ## What This Notebook Covers
 
@@ -63,8 +57,6 @@ Top 20 most important features ranked by Random Forest feature importances.
 - **Waterfall plots** — 5 individual prediction explanations (True Positive, True Negative, False Positive, False Negative)
 - **Dependence plot** — how the top feature affects model output across all samples
 
----
-
 ## Results Summary
 
 | Model | F1-Score | ROC-AUC |
@@ -74,8 +66,6 @@ Top 20 most important features ranked by Random Forest feature importances.
 | Logistic Regression | baseline | ~0.86 |
 
 > Exact scores will appear after running the notebook.
-
----
 
 ## How to Run
 
@@ -90,8 +80,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn shap imbalanced-learn u
 
 The dataset downloads automatically from UCI — no manual download needed.
 
----
-
 ## Skills Demonstrated
 
 - Binary classification on imbalanced real-world data
@@ -101,8 +89,4 @@ The dataset downloads automatically from UCI — no manual download needed.
 - Explainable AI with SHAP (both global and local explanations)
 - Customer behaviour analysis through feature importance
 
----
 
-## Part of
-
-[Data Science Portfolio](../) — Task 4 of ongoing project series.
