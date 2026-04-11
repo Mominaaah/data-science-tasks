@@ -1,8 +1,6 @@
-# Task 3 — Energy Consumption Time Series Forecasting
+#  Energy Consumption Time Series Forecasting
 
 Forecast short-term household energy usage using historical power consumption data. Three models are compared: ARIMA, Prophet, and XGBoost.
-
----
 
 ## Dataset
 
@@ -11,19 +9,15 @@ Forecast short-term household energy usage using historical power consumption da
 - **Period:** December 2006 to November 2010
 - **Target:** `Global_active_power` (kilowatts)
 
----
-
 ## Project Structure
 
 ```
-Task-3-Energy-Forecasting/
+Task-6-Energy_Forecasting/
 │
 ├── energy_forecasting.ipynb        # Main notebook
 ├── household_power_consumption.txt # Dataset (download separately)
 └── README.md                       # This file
 ```
-
----
 
 ## How to Run
 
@@ -40,8 +34,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn statsmodels prophet xgb
 ```
 
 **Step 3 — Run all cells top to bottom**
-
----
 
 ## What the Notebook Does
 
@@ -119,9 +111,3 @@ Lower values = better predictions.
 - Decomposition forecasting with Prophet
 - Machine learning forecasting with XGBoost
 - Model evaluation using MAE and RMSE
-
----
-
-## Part of
-
-[Data Science Portfolio](../) — Task 3 of ongoing project series.
