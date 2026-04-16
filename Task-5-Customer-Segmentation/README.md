@@ -9,7 +9,6 @@ Cluster mall customers by spending habits using K-Means and visualise segments w
 - **Features:** Customer ID, Gender, Age, Annual Income (k$), Spending Score (1–100)
 - **No labels** — pure unsupervised learning task
 
----
 
 ## Project Structure
 
@@ -19,9 +18,6 @@ Task-2-Customer-Segmentation/
 ├── customer_segmentation.ipynb   # Main notebook
 └── README.md                     # This file
 ```
-
----
-
 ## What This Notebook Covers
 
 ### 1. Exploratory Data Analysis
@@ -65,8 +61,6 @@ Tailored strategy for each of the 5 identified segments:
 | 3 | Low Income, High Spending | BNPL, influencer marketing, flash sales |
 | 4 | Low Income, Low Spending | Essential products, heavy discounts |
 
----
-
 ## Clustering Metrics
 
 | Metric | Direction | Meaning |
@@ -74,8 +68,6 @@ Tailored strategy for each of the 5 identified segments:
 | Silhouette Score | Higher = better | How well separated clusters are |
 | Davies-Bouldin Score | Lower = better | Average similarity between clusters |
 | Calinski-Harabasz Score | Higher = better | Ratio of between/within cluster variance |
-
----
 
 ## How to Run
 
@@ -87,8 +79,6 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 **Step 2 — Run all cells top to bottom**
 
 The dataset downloads automatically — no manual download needed.
-
----
 
 ## Skills Demonstrated
 
