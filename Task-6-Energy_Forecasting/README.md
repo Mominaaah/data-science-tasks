@@ -88,8 +88,6 @@ Features created for XGBoost:
 - XGBoost feature importance chart
 - Final MAE and RMSE comparison table and bar chart
 
----
-
 ## Metrics Used
 
 | Metric | What it measures |
@@ -99,7 +97,6 @@ Features created for XGBoost:
 
 Lower values = better predictions.
 
----
 
 ## Skills Demonstrated
 
